@@ -258,39 +258,42 @@ span {
 
 /*=============================*/
 	.picture-group, .all-logos {
-	  margin: 20px auto;
-	  width: 100%;
-		overflow: auto;
+	  margin: 20px;
+	  width: 90%;
+	}
+
+	img {
+		margin-top: 20px;
+		width: 125px;
+
 	}
 
 	.author-info {
-	  margin: 0 5px;
 	  width: 100%;
+		overflow: auto;
+
 	}
 
-	.pj-pic {
+	.pic {
 		float: left;
 	}
-
-
-	.jj-pic {
-		float: left;
-
-	}
-
-	.dk-pic {
-		float: left;
-
-	}
-
 
 	.author-name {
+		outline: 1px dashed red;
 	  font-size: 1.2em;
-	  margin: 5px 0;
+		margin-top: 20px;
+		padding: 0 0 0 10px;
 	}
 
 	.author-text {
+		outline: 1px dashed red;
 	  color: rgba(156, 156, 156, 1.0);
+		display: block;
+		width: 100%;
+	}
+
+	.marketing-text {
+		display: inline-block;
 	}
 /*========================*/
 
@@ -302,20 +305,15 @@ span {
 		font-size: 1.2em;
 	  margin: 10px;
 	  padding: 15px 20px;
-		width: 100%;
+		width: 90%;
 	}
 
 	input {
-	  background-color: white;
+	  background-color: rgba(230, 230, 230, 1.0);
 	  border-radius: 4px;
 		font-size: 1.2em;
 		display: block;
 	  margin: 10px;
 	  padding: 20px;
-		width: 100%;
+		width: 78%;
 	}
-
-	.body-container input {
-		background: rgba(230, 230, 230, 1.0);
-	}
-}
