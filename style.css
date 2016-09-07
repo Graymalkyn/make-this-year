@@ -271,7 +271,6 @@ span {
 	.author-info {
 	  width: 100%;
 		overflow: auto;
-
 	}
 
 	.pic {
@@ -283,13 +282,16 @@ span {
 	  font-size: 1.2em;
 		margin-top: 20px;
 		padding: 0 0 0 10px;
+		display: inline-block;
 	}
 
 	.author-text {
 		outline: 1px dashed red;
 	  color: rgba(156, 156, 156, 1.0);
-		display: block;
-		width: 100%;
+		display: inline-block;
+		padding: 0 0 0 10px;
+		width: 57%;
+		float: left;
 	}
 
 	.marketing-text {
@@ -301,9 +303,8 @@ span {
 	  background-color: rgba(174, 92, 200, 1.0);
 		border-radius: 4px;
 		color: white;
-		display: block;
 		font-size: 1.2em;
-	  margin: 10px;
+	  margin: 20px auto;
 	  padding: 15px 20px;
 		width: 90%;
 	}
@@ -312,8 +313,12 @@ span {
 	  background-color: rgba(230, 230, 230, 1.0);
 	  border-radius: 4px;
 		font-size: 1.2em;
-		display: block;
-	  margin: 10px;
+	  margin: 0px auto;
 	  padding: 20px;
-		width: 78%;
+		width: 80%;
 	}
+
+.made-by {
+	outline: 1px dashed red;
+	display: block;
+}
